@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.katta{
+    width: 90%;
+    height: 100vh;
+    background-color: white;
+}
+.katta2{
+    width: 55%;
+    height: 70vh;
+    background-color: #ffff;
+    box-shadow: 10px 10px 20px rgba(174, 170, 170, 0.53);
+    border-right: 3px solid coral;
+    border-left: 3px solid dodgerblue;
+    border-radius: 400px 0px 400px 0px;
+    transform: translateY(100px) translateX(400px) ;
+}
+.katta3{
+    width: 90%;
+    height: 65vh;
+    background-color: rgba(250, 246, 246, 0.978);
+    border-radius: 0px 450px 0px 450px;
+    transform: rotate(-8deg) translateX(50px) translateY(20px);
+    box-shadow: 10px 10px 20px rgba(174, 170, 170, 0.53);
+
+}
+.katta3 h1{
+    transform: translateX(300px) translateY(200px) rotate(9deg);
+    font-size: 38px;
+    color: chocolate;
+    
+}
+
+    .text{
+        transform: translateX(300px) translateY(200px) rotate(8deg);
+       
+
+
+
+    }
+.text input{
+width: 270px;
+margin-top: 30px;
+border: none;
+padding-left: 6px;
+padding-bottom: 5px;
+border-bottom: 1px solid coral;
+background-color: transparent;
+display: grid;
+outline: none;
+
+}
+.bottom{
+    width: 100px;
+    height: 33px;
+    border-radius:20px;
+    margin-top: 20px;
+    color: white;
+    background: rgb(246, 136, 52);
+    border: none;
+    transform: translateY(-170px) translateX(350px);
+}
+.cop{
+    font-size: 13px;
+    padding-left: 29%;
+    padding-top: 110px;
+    color: rgba(128, 128, 128, 0.61);
+}
